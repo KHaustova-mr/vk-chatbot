@@ -12,21 +12,5 @@
         <servlet-name>VKServlet</servlet-name>
         <url-pattern>/vk-request</url-pattern>
     </servlet-mapping>
-    <servlet>
-        <servlet-name>SendPostJSONTest</servlet-name>
-        <servlet-class>com.markhaust.vkbot.servlet.SendPostJSONServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>SendPostJSONTest</servlet-name>
-        <url-pattern>/send-post</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>Test</servlet-name>
-        <servlet-class>com.krinroman.vkbot.servlet.TestServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Test</servlet-name>
-        <url-pattern>/test</url-pattern>
-    </servlet-mapping>
 
 </web-app>
