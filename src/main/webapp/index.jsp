@@ -8,11 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Index</title>
+    <title>Complete</title>
 </head>
 <body>
-    <h1>Testing page</h1>
-    <a href="/send-post?key=confirmation">Отправить POST запрос Confirmation</a></br>
-    <a href="/test">Test</a>
+    <h1>App Ruined</h1>
+    <a href="https://vk.com/club188008431">Напиште боту</a></br>
+
 </body>
 </html>
