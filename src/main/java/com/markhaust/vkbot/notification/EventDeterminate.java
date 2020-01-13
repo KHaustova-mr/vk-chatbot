@@ -6,7 +6,7 @@ public class EventDeterminate {
 
     public static Event getEvent(Collection<Event> events, String type) {
         for (Event event : events) {
-            if (event.equals(type))
+            if (event.getName().equals(type))
                 return event;
         }
         return null;

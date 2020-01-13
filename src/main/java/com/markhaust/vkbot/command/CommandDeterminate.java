@@ -5,7 +5,7 @@ import java.util.Collection;
 public class CommandDeterminate {
     public static Command getCommand(Collection<Command> commands, String nameCommand) {
         for (Command command : commands) {
-            if (command.equals(nameCommand))
+            if (command.getName().equals(nameCommand))
                 return command;
         }
         return null;
